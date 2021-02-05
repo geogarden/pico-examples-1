@@ -1,9 +1,8 @@
 /**
  * Copyright (c) 2020 Raspberry Pi (Trading) Ltd.
- *
+ * Tomasz Maćkowski
  * SPDX-License-Identifier: BSD-3-Clause
- */
-#include "pico/stdlib.h"
+ */ #include "pico/stdlib.h"
 int main() {
     const uint LED_PIN = 25;
     gpio_init(LED_PIN);
